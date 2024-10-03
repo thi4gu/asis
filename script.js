@@ -10,7 +10,7 @@ const produtosFuturos001 = [
     { nome: "Agência Virtual", tipo: "terceiro", existe:true },
     { nome: "Geoweb", tipo: "proprio", existe:true },
     { nome: "Atendimento e Serviços", tipo: "proprio", existe:false },
-    { nome: "Serviços Campo", tipo: "terceiro", existe:false },
+    { nome: "Serviços Campo", tipo: "terceiro", existe:true },
     { nome: "Service Cloud", tipo: "sap", existe:true },
 ];
 
