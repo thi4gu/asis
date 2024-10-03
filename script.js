@@ -1,16 +1,17 @@
 // Dados dos produtos
 const produtosAtuais001 = [
-    { nome: "Projetos e Obras", tipo: "sap", existe:true },
-    { nome: "Alles8 - Orçamento e Obra", tipo: "terceiro", existe:true },
-    { nome: "RM Orca", tipo: "proprio", existe:true },
-    { nome: "Aquario - Gestão Empreendimento", tipo: "terceiro", existe:true }
+    { nome: "Agência Virtual", tipo: "terceiro", existe:true },
+    { nome: "Geoweb", tipo: "proprio", existe:true },
+    { nome: "Atendimento e Serviços", tipo: "proprio", existe:true },
+    { nome: "Serviços Campo", tipo: "terceiro", existe:true }
 ];
 
 const produtosFuturos001 = [
-    { nome: "Projetos e Obras", tipo: "sap", existe:true },
-    { nome: "Alles8 - Orçamento e Obra", tipo: "terceiro", existe:false },
-    { nome: "RM Orca", tipo: "proprio", existe:false },
-    { nome: "Aquario - Gestão Empreendimento", tipo: "terceiro", existe:false }
+    { nome: "Agência Virtual", tipo: "terceiro", existe:true },
+    { nome: "Geoweb", tipo: "proprio", existe:true },
+    { nome: "Atendimento e Serviços", tipo: "proprio", existe:false },
+    { nome: "Serviços Campo", tipo: "terceiro", existe:false },
+    { nome: "Service Cloud", tipo: "sap", existe:true },
 ];
 
 const produtosAtuais002 = [
