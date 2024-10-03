@@ -3,7 +3,8 @@ const produtosAtuais001 = [
     { nome: "Agência Virtual", tipo: "terceiro", existe:true },
     { nome: "Geoweb", tipo: "proprio", existe:true },
     { nome: "Atendimento e Serviços", tipo: "proprio", existe:true },
-    { nome: "Serviços Campo", tipo: "terceiro", existe:true }
+    { nome: "Serviços Campo", tipo: "terceiro", existe:true },
+    { nome: "Site Institucional", tipo: "terceiro", existe:true }
 ];
 
 const produtosFuturos001 = [
@@ -12,6 +13,7 @@ const produtosFuturos001 = [
     { nome: "Atendimento e Serviços", tipo: "proprio", existe:false },
     { nome: "Serviços Campo", tipo: "terceiro", existe:true },
     { nome: "Service Cloud", tipo: "sap", existe:true },
+    { nome: "Site Institucional", tipo: "terceiro", existe:true }
 ];
 
 const produtosAtuais002 = [
@@ -27,7 +29,6 @@ const produtosAtuais002 = [
     { nome: "Tesouraria", tipo: "sap", existe:true },
     { nome: "Gestão da Dívida", tipo: "sap", existe:true },
     { nome: "Viagens", tipo: "sap", existe:true },
-    { nome: "Fundo Fixo", tipo: "sap", existe:true },
 
     { nome: "Ambiente Acadêmico", tipo: "proprio", existe:true },
     { nome: "Contracheque", tipo: "proprio", existe:true },
@@ -45,6 +46,25 @@ const produtosAtuais002 = [
     { nome: "Processa", tipo: "proprio", existe:true },
     { nome: "Provida", tipo: "proprio", existe:true },
     { nome: "Recad", tipo: "proprio", existe:true },
+
+    { nome: "Redmine - Cetic", tipo: "terceiro", existe:true },
+    { nome: "Redmine - Clipsis", tipo: "terceiro", existe:true },
+    { nome: "Redmine - FAF", tipo: "terceiro", existe:true },
+    { nome: "Redmine - GPSis", tipo: "terceiro", existe:true },
+    { nome: "Redmine - GPT", tipo: "terceiro", existe:true },
+    { nome: "Saúde, Segurança e Meio Ambiente", tipo: "sap", existe:true },
+    { nome: "Recrutamento Web", tipo: "sap", existe:true },
+    { nome: "Recursos Humanos", tipo: "sap", existe:true },
+    { nome: "Gerenciamento do Tempo", tipo: "sap", existe:true },
+    { nome: "Folha", tipo: "sap", existe:true },
+
+    { nome: "Controle Investimento", tipo: "sap", existe:true },
+    { nome: "Suprimentos", tipo: "sap", existe:true },
+    { nome: "MRP", tipo: "sap", existe:true },
+    { nome: "Projetos e Obras", tipo: "sap", existe:true },
+    { nome: "GPD", tipo: "proprio", existe:true },
+    { nome: "Transporte", tipo: "proprio", existe:true },
+    { nome: "RMORCA", tipo: "terceiro", existe:true },
 	
 ];
 
@@ -85,6 +105,28 @@ const produtosFuturos002 = [
     { nome: "Processa", tipo: "proprio", existe:false },
     { nome: "Provida", tipo: "proprio", existe:false },
     { nome: "Recad", tipo: "proprio", existe:false },
+	
+    { nome: "Redmine - Cetic", tipo: "terceiro", existe:false },
+    { nome: "Redmine - Clipsis", tipo: "terceiro", existe:true },
+    { nome: "Redmine - FAF", tipo: "terceiro", existe:false },
+    { nome: "Redmine - GPSis", tipo: "terceiro", existe:true },
+    { nome: "Redmine - GPT", tipo: "terceiro", existe:false },
+    { nome: "Portfolio and Project Management", tipo: "sap", existe:true },
+    { nome: "Fundo Fixo", tipo: "sap", existe:true },
+    { nome: "Saúde, Segurança e Meio Ambiente", tipo: "sap", existe:true },
+    { nome: "Recrutamento Web", tipo: "sap", existe:false },
+    { nome: "Recursos Humanos", tipo: "sap", existe:true },
+    { nome: "Gerenciamento do Tempo", tipo: "sap", existe:true },
+    { nome: "Folha", tipo: "sap", existe:true },
+    { nome: "Controle Investimento", tipo: "sap", existe:true },
+    { nome: "Suprimentos", tipo: "sap", existe:true },
+    { nome: "MRP", tipo: "sap", existe:true },
+    { nome: "Projetos e Obras", tipo: "sap", existe:true },
+    { nome: "GPD", tipo: "proprio", existe:false },
+    { nome: "Transporte", tipo: "proprio", existe:false },
+    { nome: "Frota", tipo: "sap", existe:true },
+    { nome: "RMORCA", tipo: "terceiro", existe:false },
+    { nome: "Portfólio e Projeto", tipo: "sap", existe:true },
 ];
 
 // Referências aos elementos do DOM
